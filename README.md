@@ -5,7 +5,7 @@
 3. [Advantages/Limitations of the App](#kt2)
 4. [Proposed System ](#kt3)
 5. [System Requirement ](#kt4)
-6. [Basic UI of the App](#kt5)
+6. [Getting Started](#kt5)
 7. [References](#kt6)
 
 <div id='kt0'>
@@ -126,7 +126,7 @@ The system comprises of 2 major modules with their sub-modules as follows:
 
 ## System Requirements 
 
-###	Hardware Requirement
+##	Hardware Requirement
 
 i.	Laptop or PC
 
@@ -145,22 +145,25 @@ ii.	Android Phone (6.0 and above)
 
 iii.	iPhone (iOS 9 and above) (If iOS version needs to be checked)
 
-###	Software Requirement
+##	Software Requirement
 
-iv.	Laptop or PC
+•	[Android Studio with Flutter Plugin](https://link-url-here.org)
 
-•	Android Studio with Flutter Plugin
+• [Flutter SDK Download](https://docs.flutter.dev/get-started/install)
 
 •	XCode (Latest version) (If iOS version needs to be checked on Mac)
 
 <div id='kt5'>
 
-## Basic UI of the App
+## Getting Started
 
-![civo](https://user-images.githubusercontent.com/83578700/196453163-b4dc3003-dbd5-45be-ae7f-1f9701eeb7e1.png)
-![ss5](https://user-images.githubusercontent.com/83578700/196452732-d3242200-008b-4d02-a12b-16151b1b72b1.png)
-
-![cici](https://user-images.githubusercontent.com/83578700/196453187-0029d91b-ec4f-4517-b63e-cca447b11087.png)
+1. Fork& Clone the repository
+2. Open repository in Android studio
+3. Run command 'flutter pub get' at root of the structure
+4. Create a New branch by the Command git checkout -b "branchname"
+5. Code in! and add your code with git add. 
+6. Commit the code with git commit -m  "anytext"
+7. Push the code with git push origin "branchname"
 
 <div id='kt6'>
 
