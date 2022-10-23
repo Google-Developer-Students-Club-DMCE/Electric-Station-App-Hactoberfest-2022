@@ -1,3 +1,4 @@
+import 'package:electric_station/presentation/screens/LoginScreen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_native_splash/flutter_native_splash.dart';
 
@@ -45,6 +46,12 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     FlutterNativeSplash.remove();
+    Future.delayed(
+        const Duration(seconds: 1),
+        () => Navigator.pushReplacement(
+              context,
+              MaterialPageRoute(builder: (context) => const MyLogin()),
+            ));
     super.initState();
   }
 
